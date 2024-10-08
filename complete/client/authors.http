@@ -1,0 +1,26 @@
+GET http://localhost:8080/api/authors
+
+###
+
+POST http://localhost:8080/api/authors
+Content-Type: application/json
+
+{
+ "name": "Max Damage",
+ "bio": "Racing Driver Extraordinaire"
+}
+
+###
+
+GET http://localhost:8080/api/authors/1
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/api/authors/1
+Content-Type: application/json
+
+{
+    "name": "Bob Ross",
+    "bio": "Greatest painter not alive"
+}
